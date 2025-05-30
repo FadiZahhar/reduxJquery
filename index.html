@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Redux & jQuery Tutorial</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="app">
-        <h1>Task Manager</h1>
-        <input type="text" id="taskInput" placeholder="Add a new task...">
-        <button id="addTaskBtn">Add Task</button>
-        <ul id="taskList"></ul>
+         <div class="w3-section">
+        <input class="w3-input w3-border" id="taskInput" type="text" placeholder="Enter a new task">
+        <button class="w3-button w3-teal w3-margin-top w3-block" id="addTaskBtn">Add Task</button>
+        <div id="errorContainer" class="w3-text-red w3-margin-top"></div>
     </div>
 
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/redux.min.js"></script>
-    <script src="scripts/app.js"></script>
+<ul id="taskList" class="w3-ul w3-card-2"></ul>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js"></script>
+<script src="scripts/app.js"></script>
+
 </body>
 </html>
