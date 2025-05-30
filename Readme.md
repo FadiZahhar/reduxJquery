@@ -1,7 +1,3 @@
-Absolutely! Below is a **step-by-step breakdown of what `app.js` does**, acting as a complete reference for understanding how Redux and jQuery work together without middleware like Thunk.
-
----
-
 # 📘 `app.js` Explained – Line by Line
 
 ---
